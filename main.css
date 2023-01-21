@@ -1,8 +1,193 @@
+ :root{
+    --primary-color:#0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --infor-color: #0dcaf0;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+ }
+
 html,
 body{
     margin: 0;
     padding: 0;
-    color: #000;
+    color: black;
     font-family: 'Jost', sans-serif;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 50px 15px;
+    margin: auto;
+}
+
+/*style btn_md*/
+
+.btn{
+    border: 1px solid;
+    border-radius: 3px;
+    color: black;
+}
+
+.btn__md{
+    font-size: 16px;
+	padding: 6px 12px;
+    border: 0px;
+}
+
+.btn__md-primary{
+    color: white; 
+    background-color: var(--primary-color);    
+}
+
+.btn__md-secondary{
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.btn__md-success{
+    color: white;
+    background-color: var(--success-color);
+}
+
+.btn__md-danger{
+    color: white;
+    background-color: var(--danger-color);
+}
+
+.btn__md-warning{
+    background-color: var(--warning-color);
+}
+
+.btn__md-infor{
+    background-color: var(--infor-color);
+}
+
+.btn__md-light{
+    background-color: var(--light-color);
+}
+
+.btn__md-dark{
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.btn__md-link{
+    color: blue;
+    background-color: var(--light-color);
+}
+
+.btn__md:hover{
+    filter: invert(95%);
+    transition: all 0.2s ease-in-out;
+}
+
+  /*style btn-sm*/
+
+.btn__sm{
+    background-color: transparent;
+    font-size: 14px;
+	padding: 5px 10px;
+}
+
+.btn__sm-primary{
+    color: var(--primary-color);
+}
+
+.btn__sm-secondary{
+    color: var(--secondary-color);
+}
+
+.btn__sm-success{
+    color: var(--success-color);
+}
+
+.btn__sm-danger{
+    color: var(--danger-color);
+}
+
+.btn__sm-warning{
+    color: var(--warning-color);
+}
+
+.btn__sm-infor{
+    color: var(--infor-color);
+}
+
+.btn__sm-light{
+    color: var(--dark-color);
+    border-color: var(--light-color);
+    background-color: transparent;
+}
+
+.btn__sm-dark{
+    color: var(--dark-color);
+}
+
+.btn__sm-link{
+    color: blue;
+    border-color: var(--light-color);
+    background-color: transparent;
+}
+
+/* btn__sm:hover */
+
+.btn__sm-primary:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn__sm-secondary:hover{
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.btn__sm-success:hover{
+    color: white;
+    background-color: var(--success-color);
+}
+
+.btn__sm-danger:hover{
+    color: white;
+    background-color: var(--danger-color);
+}
+
+.btn__sm-warning:hover{
+    color: black;
+    border-color: var(--warning-color);
+    background-color: var(--warning-color);
+}
+
+.btn__sm-infor:hover{
+    color: black;
+    border-color: var(--infor-color);
+    background-color: var(--infor-color);
+}
+
+.btn__sm-light:hover{
+    color: black;
+    border-color: var(--light-color);
+    background-color: var(--light-color);
+}
+
+.btn__sm-dark:hover{
+    color: white;
+    border-color: var(--dark-color);
+    background-color: var(--dark-color);
+}
+
+.btn__sm-link:hover{
+    color: blue;
+    border-color: var(--light-color);
+    background-color: var(--light-color);
+     
+}
+
+.btn__sm:hover{
+    transition: all 0.2s ease-in-out;
+}
