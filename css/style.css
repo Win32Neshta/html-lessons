@@ -1,0 +1,219 @@
+ :root{
+    --primary:#0d6efd;
+    --secondary: #6c757d;
+    --success: #198754;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --infor: #0dcaf0;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --link: #0000FF;
+    --transition-duration: .25s;
+ }
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 50px 15px;
+    margin: auto;
+}
+
+/*style btn_md*/
+
+.btn {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn_md {
+    font-size: 16px;
+	padding: 6px 12px;
+}
+
+.btn_sm {
+    font-size: 14px;
+	padding: 5px 10px;
+}
+
+.btn_primary,
+.btn_secondary,
+.btn_success,
+.btn_danger,
+.btn_dark {
+    color: white;
+}
+
+.btn_primary {
+    border-color: var(--primary);
+    background-color: var(--primary);
+}
+
+.btn_secondary {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.btn_success {
+    border-color: var(--success);
+    background-color: var(--success);
+}
+
+.btn_danger {
+    border-color: var(--danger);
+    background-color: var(--danger);
+}
+
+.btn_warning {
+    border-color: var(--warning);
+    background-color: var(--warning);
+}
+
+.btn_info {
+    border-color: var(--infor);
+    background-color: var(--infor);
+}
+
+.btn_light {
+    border-color: var(--light);
+    background-color: var(--light);
+}
+
+.btn_dark {
+    border-color: var(--dark);
+    background-color: var(--dark);
+}
+
+.btn_link {
+    border-color: transparent;
+    color: var(--link);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.btn_outline {
+    background-color: transparent;
+}
+
+.btn_outline-primary {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn_outline-primary:hover, 
+.btn_outline-primary:focus {
+    color: white;
+    background-color: var(--primary);
+}
+
+.btn_outline-secondary {
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+.btn_outline-secondary:hover,
+.btn_outline-secondary:focus {
+    color: white;
+    background-color: var(--secondary);
+}
+
+.btn_outline-success {
+    border-color: var(--success);
+    color: var(--success);
+}
+
+.btn_outline-success:hover,
+.btn_outline-success:focus {
+    color: white;
+    background-color: var(--success);
+}
+
+.btn_outline-danger {
+    border-color: var(--danger);
+    color: var(--danger);
+}
+
+.btn_outline-danger:hover,
+.btn_outline-danger:focus {
+    color: white;
+    background-color: var(--danger);
+}
+
+.btn_outline-warning {
+    border-color: var(--warning);
+    color: var(--warning);
+}
+
+.btn_outline-warning:hover,
+.btn_outline-warning:focus {
+    color: white;
+    background-color: var(--warning);
+}
+
+.btn_outline-infor {
+    border-color: var(--infor);
+    color: var(--infor);
+}
+
+.btn_outline-infor:hover,
+.btn_outline-infor:focus {
+    color: white;
+    background-color: var(--infor);
+}
+
+.btn_outline-light {
+    border-color: var(--light);
+    color: var(--light);
+}
+
+.btn_outline-light:hover,
+.btn_outline-light:focus {
+    color: white;
+    background-color: var(--light);
+}
+
+.btn_outline-dark {
+    border-color: var(--dark);
+    color: var(--dark);
+}
+
+.btn_outline-dark:hover,
+.btn_outline-dark:focus {
+    color: white;
+    background-color: var(--dark);
+}
+
+.btn_outline-link {
+    border-color: var(--link);
+    color: var(--link);
+    text-decoration: underline;
+}
+
+.btn_outline-link:hover,
+.btn_outline-link:focus {
+    color: white;
+    background-color: var(--link);
+}
+
+.btn_hover-black:hover,
+.btn_hover-black:focus {
+    border-color: black;
+    color: white;
+    background-color: black;
+}
