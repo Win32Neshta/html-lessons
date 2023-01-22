@@ -57,47 +57,116 @@ body{
 .btn_secondary,
 .btn_success,
 .btn_danger,
-.btn_dark {
+.btn_dark,
+.btn_outline-primary:hover, 
+.btn_outline-primary:focus,
+.btn_outline-secondary:hover,
+.btn_outline-secondary:focus,
+.btn_outline-success:hover,
+.btn_outline-success:focus,
+.btn_outline-danger:hover,
+.btn_outline-danger:focus,
+.btn_outline-dark:hover,
+.btn_outline-dark:focus,
+.btn_hover-black:hover,
+.btn_hover-black:focus {
     color: white;
 }
 
-.btn_primary {
+.btn_outline-warning:hover,
+.btn_outline-warning:focus,
+.btn_outline-infor:hover,
+.btn_outline-infor:focus,
+.btn_outline-light:hover,
+.btn_outline-light:focus {
+    color: black;
+}
+
+.btn_primary,
+.btn_outline-primary {
     border-color: var(--primary);
+}
+
+.btn_primary,
+.btn_outline-primary:hover, 
+.btn_outline-primary:focus {
     background-color: var(--primary);
 }
 
-.btn_secondary {
+.btn_secondary,
+.btn_outline-secondary {
     border-color: var(--secondary);
+}
+
+.btn_secondary,
+.btn_outline-secondary:hover,
+.btn_outline-secondary:focus {
     background-color: var(--secondary);
 }
 
-.btn_success {
+.btn_success,
+.btn_outline-success {
     border-color: var(--success);
+}
+
+.btn_success,
+.btn_outline-success:hover,
+.btn_outline-success:focus {
     background-color: var(--success);
 }
 
-.btn_danger {
+.btn_danger,
+.btn_outline-danger {
     border-color: var(--danger);
+}
+
+.btn_danger,
+.btn_outline-danger:hover,
+.btn_outline-danger:focus {  
     background-color: var(--danger);
 }
 
-.btn_warning {
+.btn_warning,
+.btn_outline-warning {
     border-color: var(--warning);
+}
+
+.btn_warning,
+.btn_outline-warning:hover,
+.btn_outline-warning:focus {   
     background-color: var(--warning);
 }
 
-.btn_info {
+.btn_info,
+.btn_outline-infor {
     border-color: var(--infor);
+}
+
+.btn_info,
+.btn_outline-infor:hover,
+.btn_outline-infor:focus {   
     background-color: var(--infor);
 }
 
-.btn_light {
+.btn_light,
+.btn_outline-light {
     border-color: var(--light);
+}
+
+.btn_light,
+.btn_outline-light:hover,
+.btn_outline-light:focus {
     background-color: var(--light);
 }
 
-.btn_dark {
+.btn_dark,
+.btn_outline-dark {
     border-color: var(--dark);
+}
+
+.btn_dark,
+.btn_outline-dark:hover,
+.btn_outline-dark:focus {    
     background-color: var(--dark);
 }
 
@@ -113,96 +182,39 @@ body{
 }
 
 .btn_outline-primary {
-    border-color: var(--primary);
     color: var(--primary);
 }
 
-.btn_outline-primary:hover, 
-.btn_outline-primary:focus {
-    color: white;
-    background-color: var(--primary);
-}
-
 .btn_outline-secondary {
-    border-color: var(--secondary);
     color: var(--secondary);
 }
 
-.btn_outline-secondary:hover,
-.btn_outline-secondary:focus {
-    color: white;
-    background-color: var(--secondary);
-}
-
 .btn_outline-success {
-    border-color: var(--success);
     color: var(--success);
 }
 
-.btn_outline-success:hover,
-.btn_outline-success:focus {
-    color: white;
-    background-color: var(--success);
-}
-
 .btn_outline-danger {
-    border-color: var(--danger);
     color: var(--danger);
 }
 
-.btn_outline-danger:hover,
-.btn_outline-danger:focus {
-    color: white;
-    background-color: var(--danger);
-}
-
 .btn_outline-warning {
-    border-color: var(--warning);
     color: var(--warning);
 }
 
-.btn_outline-warning:hover,
-.btn_outline-warning:focus {
-    color: black;
-    background-color: var(--warning);
-}
-
 .btn_outline-infor {
-    border-color: var(--infor);
     color: var(--infor);
 }
 
-.btn_outline-infor:hover,
-.btn_outline-infor:focus {
-    color: black;
-    background-color: var(--infor);
-}
-
 .btn_outline-light {
-    border-color: var(--light);
     color: var(--light);
 }
 
-.btn_outline-light:hover,
-.btn_outline-light:focus {
-    color: black;
-    background-color: var(--light);
-}
-
 .btn_outline-dark {
-    border-color: var(--dark);
     color: var(--dark);
-}
-
-.btn_outline-dark:hover,
-.btn_outline-dark:focus {
-    color: white;
-    background-color: var(--dark);
 }
 
 .btn_hover-black:hover,
 .btn_hover-black:focus {
     border-color: black;
-    color: white;
     background-color: black;
 }
