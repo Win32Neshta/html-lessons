@@ -15,6 +15,7 @@ html,
 body{
     margin: 0;
     padding: 0;
+    font-size: 16px;
     color: black;
     font-family: 'Jost', sans-serif;
 }
@@ -29,9 +30,9 @@ body{
 /*style btn_md*/
 
 .btn {
-    border-width: 1px;
+    border-width: .06rem;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: .2rem;
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -44,13 +45,38 @@ body{
 }
 
 .btn_md {
-    font-size: 16px;
-	padding: 6px 12px;
+    font-size: 1rem;
+	padding: .35rem .75rem;
 }
 
 .btn_sm {
-    font-size: 14px;
-	padding: 5px 10px;
+    font-size: .87rem;
+	padding: .3rem .6rem;
+}
+
+.btn_plus {
+    padding: .6rem;
+}
+
+.btn_number {
+    padding: .6em;
+    font-size: .75em;
+    margin-left: .6em;
+    border: .1em solid transparent;
+    background-color: transparent;
+}
+
+.btn_number-outline {
+    display: inline-block;
+    width: 1.2em;
+    padding: .2em;
+    margin-left: .6em;
+    font-size: .8em;
+    border: .1em solid var(--primary);
+    border-radius: 5em;
+    background-color: var(--primary);
+    color: white;
+    
 }
 
 .btn_primary,
@@ -206,7 +232,7 @@ body{
 }
 
 .btn_outline-light {
-    color: var(--light);
+    color: var(--dark);
 }
 
 .btn_outline-dark {
